@@ -1,12 +1,15 @@
-# React + Vite
+//frontend development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1) For developing the Appointment Booking Application, I have used react vite for frontend development.
+2) For styling purpose I have used Tailwind css.
+3) The developed application will be responsive to modile/Tablet/Desktops devices.
+4) Here i have taken the dummy data for rendering the doctor details and,I have used local storage for storing doctors and user information across the page refresh
+   the data will be persist.
 
-Currently, two official plugins are available:
+//Tools/Libraries I have used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1)React.js-	Building reusable UI components and managing app state
+2)React Router DOM - Routing between pages (e.g., /, /doctor/1)
+3)Vite - Fast development server and build tool for modern frontend
+4)Tailwind CSS -	Utility-first CSS framework for responsive and styled UI
+5)LocalStorage API	Store user data (selected doctor, appointment info) persistently
